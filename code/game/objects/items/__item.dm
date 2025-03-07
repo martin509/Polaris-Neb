@@ -113,6 +113,7 @@
 	var/unwieldsound = 'sound/foley/tooldrop1.ogg'
 
 	var/base_name
+	var/base_desc
 
 	/// Can this object leak into water sources?
 	var/watertight = FALSE
@@ -180,6 +181,7 @@
 /obj/item/Initialize(var/ml, var/material_key)
 
 	base_name ||= name
+	base_desc ||= desc
 
 	if(isnull(current_health))
 		current_health = max_health //Make sure to propagate max_health to health var before material setup, for consistency
