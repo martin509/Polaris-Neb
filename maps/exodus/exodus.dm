@@ -39,6 +39,8 @@
 	#include "../../mods/species/unathi/_unathi.dme"
 	#include "../../mods/species/teshari/_teshari.dme"
 	#include "../../mods/species/vatborn/_vatborn.dme"
+	#include "../../mods/species/zaddat/_zaddat.dme"
+
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
 	#include "../random_ruins/exoplanet_ruins/crashed_pod/crashed_pod.dm"

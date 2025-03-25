@@ -1,0 +1,10 @@
+#ifndef MODPACK_ZADDAT
+#define MODPACK_ZADDAT
+// BEGIN_INCLUDE
+#include "_zaddat.dm"
+#include "gear\shroud.dm"
+#include "datum\species.dm"
+#include "datum\species_bodytype.dm"
+
+// END_INCLUDE
+#endif // MODPACK_VATBORN
